@@ -11,4 +11,4 @@ Tener en cuenta en la ejecución del Test Case cypress\e2e\step_definitions\regi
 
 Para generar los reportes, se debe ejecutar el comando: node .\cucumber-html-report.js
 
-Los resportes se encuentran dentro del proyecto en la ruta: reports\cucumber-htmlreport.html\index.html
+El reporte con los resultados obtenidos se encuentra dentro del proyecto en la ruta: reports\cucumber-htmlreport.html\index.html
