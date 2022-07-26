@@ -1,0 +1,394 @@
+[
+  {
+    "description": "    Feature Agregar laptop a Carrito / Verificar que se haya agregado   ",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-cart;agregar-laptop-a-carrito-/-verificar-que-se-haya-ah¿gregado",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Agregar laptop a carrito / Verificar que se haya ah¿gregado",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Ingresar a demoblaze",
+            "result": {
+              "duration": 1706000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "Seleccionar categoría Laptops \"Laptops\"",
+            "result": {
+              "duration": 1222000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "Seleccionar una laptop para agregar al carrito \"Sony vaio i5\"",
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "Hacer click en botón add cart",
+            "result": {
+              "duration": 697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Se agrega laptop de forma correcta al carrito",
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "El producto agregado se encuentra en el carrito",
+            "result": {
+              "duration": 1604000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add Cart",
+    "uri": "cypress\\e2e\\features\\add_cart.feature"
+  },
+  {
+    "description": "    Feature Iniciar sesión con usuario registrado   ",
+    "elements": [
+      {
+        "description": "",
+        "id": "inicio-de-sesión;iniciar-sesion-con-usuario-previamente-registrado",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Iniciar sesion con usuario previamente registrado",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario ingresa a demoblaze page",
+            "result": {
+              "duration": 1320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Hace click en botón Log In",
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "Usuario ingresa nombre de usuario registrado previamente \"Gonza01\"",
+            "result": {
+              "duration": 816000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "Ingresa password válido \"Abraham.01\"",
+            "result": {
+              "duration": 404000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "Hace click en botón Log in",
+            "result": {
+              "duration": 1228000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Usuario se loguea de forma exitosa \"Gonza01\"",
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "inicio-de-sesión",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Inicio de sesión",
+    "uri": "cypress\\e2e\\features\\login.feature"
+  },
+  {
+    "description": "    Feature  Cerrar sesión de usuario previamente logueado    ",
+    "elements": [
+      {
+        "description": "",
+        "id": "cierre-de-sesión;cerrar-sesion-con-usuario-previamente-logueado",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cerrar sesion con usuario previamente logueado",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario ingresa a Demoblaze Page",
+            "result": {
+              "duration": 1154000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Hace click en botón Log In",
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "Usuario ingresa nombre de usuario válido \"Gonza01\"",
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "Ingresa password correcto \"Abraham.01\"",
+            "result": {
+              "duration": 421000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "Hace click en botón Log in",
+            "result": {
+              "duration": 1268000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "Se loguea de forma correcta \"Gonza01\"",
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "Hace click en botón Logout",
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Cierra sesión de forma exitosa \"Gonza01\"",
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cierre-de-sesión",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cierre de sesión",
+    "uri": "cypress\\e2e\\features\\logout.feature"
+  },
+  {
+    "description": "    Feature Registro de nuevo usuario en page dmoblaze",
+    "elements": [
+      {
+        "description": "",
+        "id": "registro-de-nuevo-usuario;registro-de-nuevo-usuario-de-forma-existosa",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Registro de nuevo usuario de forma existosa",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario ingresa a page demoblaze",
+            "result": {
+              "duration": 1013000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Hace click en botón Sign up",
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "Usuario ingresa nombre de usuario no registrado previamente \"Gonza50\"",
+            "result": {
+              "duration": 902000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "Ingresa password que cumpla con las policies \"Abraham.01\"",
+            "result": {
+              "duration": 467000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "Hace click en botón Sign Up",
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Usuario se registra de forma exitosa",
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registro-de-nuevo-usuario",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Registro de nuevo usuario",
+    "uri": "cypress\\e2e\\features\\registro.feature"
+  }
+]
